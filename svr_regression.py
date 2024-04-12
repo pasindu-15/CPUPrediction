@@ -3,11 +3,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import preprocessing as pp
 
 
 # Importing the dataset
-dataset = pd.read_csv('/Users/pasindu/Documents/Msc/ResearchProject/project/MLModel/CPUPrediction/preprocessing/metrics.csv')
+dataset = pd.read_csv('/Users/pasindu/Documents/Msc/ResearchProject/project/CPUPrediction/data-set/metrics.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
 
